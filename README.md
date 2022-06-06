@@ -18,4 +18,4 @@ buy               &emsp;  &emsp; &emsp; &emsp; &emsp;    The target variable, if
 
 ### Model Selection & Hyperparameter Tuning
 Looking at the distribution of data some models were selected like Random forest, Xgb, SVC with non linear kernel and knn for testing. Then after compairing the f1 score of all the models Random forest was selected and further tuned to get a final score of ~0.93.
-![](Images/Screenshot (667).png)
+![](Final_Result.png)
