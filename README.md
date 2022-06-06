@@ -7,7 +7,7 @@ We are given a dataset containing leads information. Leads are potential buyers 
 A brief summary of my approach is presented here. For more detailed view, feature engineering and EDA please check the python notebook.
 ### The Dataset
 <b>Variables                  Meaning</b><br>
-id<t>                            Id of each lead<br>
+id &emsp;                          Id of each lead<br>
 created_at                    Date the lead was dropped<br>
 campaign_var_1                Variable telling us about the campaign related to lead<br>
 campaign_var_2                Similar variable<br>
