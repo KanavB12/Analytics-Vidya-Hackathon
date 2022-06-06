@@ -7,7 +7,7 @@ We are given a dataset containing leads information. Leads are potential buyers 
 A brief summary of my approach is presented here. For more detailed view, feature engineering and EDA please check the python notebook.
 ### The Dataset
 <b>Variables                  Meaning</b><br>
-id                            Id of each lead<br>
+id<t>                            Id of each lead<br>
 created_at                    Date the lead was dropped<br>
 campaign_var_1                Variable telling us about the campaign related to lead<br>
 campaign_var_2                Similar variable<br>
@@ -18,3 +18,4 @@ buy                           The target variable, if the lead buys a product wi
 
 ### Model Selection & Hyperparameter Tuning
 Looking at the distribution of data some models were selected like Random forest, Xgb, SVC with non linear kernel and knn for testing. Then after compairing the f1 score of all the models Random forest was selected and further tuned to get a final score of ~0.93.
+![](Images/Screenshot (667).png)
