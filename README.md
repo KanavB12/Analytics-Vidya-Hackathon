@@ -17,5 +17,5 @@ user_activity(1-12) &emsp; &emsp; &emsp;    Variables showing activity of the us
 buy         &ensp;  &emsp;   &ensp; &emsp;  &emsp; &emsp; &emsp; &emsp;    The target variable, if the lead buys a product within the next 3 months<br>
 
 ### Model Selection & Hyperparameter Tuning
-Looking at the distribution of data some models were selected like Random forest, Xgb, SVC with non linear kernel and knn for testing. Then after compairing the f1 score of all the models Random forest was selected and further tuned to get a final score of ~0.93.
+Looking at the distribution of data some models were selected like Random forest, Xgb, SVC with non linear kernel and knn for testing. Then after compairing the f1 score of all the models Random forest was selected and further tuned to get a final score of ~0.93. <br> <br>
 ![](Final_Result.png)
